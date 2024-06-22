@@ -6,7 +6,18 @@ def calculate_age(birthdate):
     return age
 
 def main():
-    print("Welcome to the Age Calculator!")
+    print("""
+    ****************************************************
+    *                                                  *
+    *                Welcome to the                    *
+    *               Age Calculator!                    *
+    *                                                  *
+    *   This simple tool will help you calculate your  *
+    *   age based on your birthdate. Please enter your *
+    *   birthdate in the format YYYY-MM-DD to proceed. *
+    *                                                  *
+    ****************************************************
+    """)
     birthdate_str = input("Enter your birthdate (YYYY-MM-DD): ")
     try:
         birthdate = datetime.datetime.strptime(birthdate_str, "%Y-%m-%d").date()
