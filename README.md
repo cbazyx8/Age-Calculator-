@@ -27,5 +27,5 @@ This repository contains a simple terminal-based age calculator implemented in b
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/wahabkhaan/age-calculator.git
+git clone https://github.com/wahabkhaan/age_calculator.git
 cd age-calculator
