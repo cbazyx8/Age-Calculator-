@@ -16,6 +16,7 @@ def main():
     *   age based on your birthdate. Please enter your *
     *   birthdate in the format YYYY-MM-DD to proceed. *
     *                                                  *
+    *              Developed : Wahab khan              *
     ****************************************************
     """)
     birthdate_str = input("Enter your birthdate (YYYY-MM-DD): ")
